@@ -12,3 +12,9 @@ resource "aws_organizations_organizational_unit" "cert" {
   name      = "cert"
   parent_id = aws_organizations_organization.cahp_main_org.roots[0].id
 }
+
+// Account Factory For Terraform OU
+resource "aws_organizations_organizational_unit" "aft" {
+  name      = "aft"
+  parent_id = aws_organizations_organization.cahp_main_org.roots[0].id
+}
