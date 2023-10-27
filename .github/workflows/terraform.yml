@@ -52,5 +52,6 @@ jobs:
       # See the documentation on "strict" required status checks for more information: 
       # https://help.github.com/en/github/administering-a-repository/types-of-required-status-checks
     - name: Terraform Apply
+      working-directory: global/organizations
       if: github.ref == 'refs/heads/"main"' && github.event_name == 'push'
       run: terraform apply -auto-approve -input=false
