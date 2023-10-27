@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - 'global/accounts/**'
+      - "global/organizations/**"
   pull_request:
 
 permissions:
