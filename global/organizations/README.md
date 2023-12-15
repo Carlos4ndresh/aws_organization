@@ -1,7 +1,3 @@
-# AWS Organizations
-
-Repo that controls OUs and the setup of accounts (deprecated), also sets up the Account Factory for Terraform
-
 ## Requirements
 
 No requirements.
@@ -14,7 +10,9 @@ No requirements.
 
 ## Modules
 
-No modules.
+| Name | Source | Version |
+|------|--------|---------|
+| <a name="module_aft"></a> [aft](#module\_aft) | github.com/aws-ia/terraform-aws-control_tower_account_factory | n/a |
 
 ## Resources
 

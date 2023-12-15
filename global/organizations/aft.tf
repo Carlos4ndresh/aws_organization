@@ -9,7 +9,9 @@ module "aft" {
   # VCS Vars
   vcs_provider                                  = "github"
   account_request_repo_name                     = "Carlos4ndresh/aws_account_requests"
-  global_customizations_repo_name               = "ExampleOrg/example-repo-2"
-  account_customizations_repo_name              = "ExampleOrg/example-repo-3"
-  account_provisioning_customizations_repo_name = "ExampleOrg/example-repo-4"
+  global_customizations_repo_name               = "Carlos4ndresh/aws_account_global_customizations"
+  account_customizations_repo_name              = "Carlos4ndresh/aws_account_customizations"
+  account_provisioning_customizations_repo_name = "Carlos4ndresh/aws_account_provisioning_customizations"
 }
+
+
