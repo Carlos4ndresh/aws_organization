@@ -5,7 +5,7 @@ module "aft" {
   audit_account_id            = "084565650240"
   aft_management_account_id   = "307701292113"
   ct_home_region              = "us-west-2"
-  tf_backend_secondary_region = "us-west-2"
+  tf_backend_secondary_region = "eu-west-1"
   # VCS Vars
   vcs_provider                                  = "github"
   account_request_repo_name                     = "Carlos4ndresh/aws_account_requests"
